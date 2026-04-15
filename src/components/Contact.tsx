@@ -5,9 +5,9 @@ import { useState } from "react";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
-    name: "Your Name",
-    email: "YourEmail@gmail.com",
-    message: "Type your message here",
+    name: "",
+    email: "",
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
@@ -86,9 +86,8 @@ export default function Contact() {
               </a>
 
               <div className="flex items-center gap-4">
-                 <SocialLink href="https://github.com/fawaz-v" icon={<GithubIcon />} label="GitHub" />
-                 <SocialLink href="https://linkedin.com/in/" icon={<LinkedinIcon />} label="LinkedIn" />
-                 <SocialLink href="https://twitter.com/" icon={<TwitterIcon />} label="Twitter" />
+                 <SocialLink href="https://github.com/niksalunke" icon={<GithubIcon />} label="GitHub" />
+                 <SocialLink href="https://linkedin.com/in/nikhil-t-salunke" icon={<LinkedinIcon />} label="LinkedIn" />
               </div>
             </div>
 

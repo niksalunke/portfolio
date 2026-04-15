@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const ARTICLES = [
   {
-    title: "From Commerce to Code: My Transition",
-    excerpt: "How I pivoted from a B.Com degree to Full Stack Development in under a year. The challenges, the late nights, and the breakthroughs.",
+    title: "Desiging Microstrip Antennas to Architecting GenAI solutions: My Transition",
+    excerpt: "My breakthrough in AI world from purely telecom background. My approach to learn fast and fail faster to gain insights even faster.",
     category: "Journey",
     readTime: "5 min read",
     color: "from-blue-500 to-cyan-500",
